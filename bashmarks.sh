@@ -34,9 +34,8 @@
 
 # setup file to store bookmarks
 if [ ! -n "$SDIRS" ]; then
-    SDIRS=~/.sdirs
+    SDIRS=~/Dropbox/dotfiles/sdirs
 fi
-touch $SDIRS
 
 RED="0;31m"
 GREEN="0;33m"
